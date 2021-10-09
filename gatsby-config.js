@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://jetbond47.github.io",
     title: "jetbond47.github.io",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-postcss'],
 };
