@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
 body {
     color: white;
+}
+
+.snap-start {
+    scroll-snap-align: start;
 }
