@@ -8,8 +8,8 @@ const IndexPage = () => {
   return (
     <main>
       <title>Home Page</title>
-      <h2 className="text-6xl p-8 bg-primary"> Jetrey Bond</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gradient-to-br from-secondary via-tertiary to-neutral">
+      <h2 className="font-serif text-6xl p-8 bg-primary"> Jetrey Bond</h2>
+      <div className="font-serif grid grid-cols-1 md:grid-cols-3 gap-4 bg-gradient-to-br from-secondary via-tertiary to-neutral">
         <div className="p-4 lg:min-h-screen col-span-2">
           <h3 className="text-4xl pb-4 text-center md:text-left">About me</h3>
           <div className="flex flex-wrap md:flex-nowrap">
@@ -24,11 +24,8 @@ const IndexPage = () => {
               However, I am always open to learning new skillsets, like React, Tailwind, and Gatsby in creating this website.
             </p>
           </div>
-          <p className="flex justify-center md:justify-start flex-initial">
-            What do I put here? I don't fuckin know
-          </p>
         </div>
-        <div className="p-4 max-w-4xl lg:min-h-screen text-center md:text-left">
+        <div className="font-serif p-4 max-w-4xl lg:min-h-screen text-center md:text-left">
           <h3 className="text-4xl pb-4">This is my sidebar</h3>
           <div className="pb-5">
             If you would like a copy of my Résumé, please:
