@@ -4,5 +4,8 @@
 
 body {
     color: white;
-    background-color: #4ABDAC;
+}
+
+.imageContainer {
+    overflow: hidden;
 }
