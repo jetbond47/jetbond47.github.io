@@ -1,0 +1,96 @@
+{
+    "basic_info": {
+      "description_header": "Welcome",
+      "description": "I'm Jetrey Bond.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "NHL",
+        "startDate": "2020",
+        "description": "NHL's Site is slow and old. I want to create a better one by using React and NHL's somewhat hidden public APIs",
+        "images": [
+          "images/portfolio/NHL/NHL-Logo.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Forum Communcation",
+        "title": "Senior Software Engineer",
+        "years": "10.2020 - present",
+        "icon": "devicon-html5-plain experience-icon fab",
+        "mainTech": [
+          "HTML/CSS/JS"
+        ],
+        "technologies": [
+          "AWS",
+          "Angular",
+          "Twig",
+          "Docker",
+          "Nodejs",
+          "Twig",
+          "Handlebars",
+          "Jquery"
+        ]
+      },
+      {
+        "company": "Forum Communcation",
+        "title": "Software Engineer",
+        "years": "6.2019 - 10.2020",
+        "icon": "devicon-html5-plain experience-icon fab",
+        "mainTech": [
+          "HTML/CSS/JS"
+        ],
+        "technologies": [
+          "AWS",
+          "Angular",
+          "Twig",
+          "Docker",
+          "Nodejs",
+          "Twig",
+          "Handlebars",
+          "Jquery"
+        ]
+      },
+      {
+        "company": "Tata Consulting Services",
+        "title": "Consultant",
+        "years": "8.2017 - 6.2019",
+        "mainTech": [
+
+        ],
+        "technologies": [
+          "Azure",
+          "Angular",
+          "Oracle DB"
+        ]
+      },
+      {
+        "company": "Agile Oasis Technologies",
+        "title": "Software Engineer",
+        "years": "6.2019 - 10.2020",
+        "icon": "devicon-html5-plain experience-icon fab",
+        "mainTech": [
+          "HTML/CSS/JS"
+        ],
+        "technologies": [
+          "Jquery",
+          "PHP",
+          "MySQL"
+        ]
+      }
+    ]
+  }
