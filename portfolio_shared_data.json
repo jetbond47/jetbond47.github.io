@@ -6,6 +6,16 @@
       ],
       "image": "myProfile.jpg"
     },
+    "header_nav": [
+      {
+        "name": "HOME",
+        "url": "/"
+      },
+      {
+        "name": "NHL",
+        "url": "/nhl"
+      }
+    ],
     "skills": {
       "icons": [
         {

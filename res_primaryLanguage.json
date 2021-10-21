@@ -12,12 +12,13 @@
     "projects": [
       {
         "title": "NHL",
-        "startDate": "2020",
-        "description": "NHL's Site is slow and old. I want to create a better one by using React and NHL's somewhat hidden public APIs",
+        "startDate": "In Progress",
+        "description": "I want a more streamlined way of checking teams stats without having to load entire pages of content each click. This is that project. It is currently in progress.",
         "images": [
-          "images/portfolio/NHL/NHL-Logo.png"
+          "images/portfolio/NHL/NHL-Logo.svg"
         ],
-        "url": "",
+        "background": "black",
+        "url": "/nhl",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -30,7 +31,7 @@
       {
         "company": "Forum Communcation",
         "title": "Senior Software Engineer",
-        "years": "10.2020 - present",
+        "years": "10.2020 - 10.2021",
         "icon": "devicon-html5-plain experience-icon fab",
         "mainTech": [
           "HTML/CSS/JS"
