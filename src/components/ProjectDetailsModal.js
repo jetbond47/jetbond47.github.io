@@ -4,6 +4,8 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import { Link } from "react-router-dom";
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -80,17 +82,15 @@ class ProjectDetailsModal extends Component {
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
               {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to={url}
                   className="link-href"
                 >
                   <i
                     className="fas fa-external-link-alt"
                     style={{ marginLeft: "10px" }}
                   ></i>
-                </a>
+                </Link>
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
