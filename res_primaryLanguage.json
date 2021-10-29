@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Welcome",
-      "description": "I'm Jetrey Bond.",
+      "description_header": "Hi, my name is Jetrey Bond",
+      "description": "I'm a software engineer currently looking for the next opportunity. I believe the most important thing in software engineering is understanding concepts that can be applied to any stack. I started my career with an intern that then turned into a full time job doing basic html/css/js. After moving to Michigan, I did consulting for a large consulting company. This allowed me to dip my toes into a lot of different things includeing databases, chat bots, and project management. Moving to North Dakota, I worked for a News company that allowed me the opporunity to work with a lot of different technologies I had never worked with before, including implementing a user management platfrom and a paywall.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,7 +13,7 @@
       {
         "title": "NHL",
         "startDate": "In Progress",
-        "description": "I want a more streamlined way of checking teams stats without having to load entire pages of content each click. This is that project. It is currently in progress.",
+        "description": "I want a way to look at the stats that I am interested in on a team by team basis while keeping load times as low as possible. This is done by only loading a single teams stats at once from an api call, the intial load of the page stays very small",
         "images": [
           "images/portfolio/NHL/NHL-Logo.svg"
         ],
